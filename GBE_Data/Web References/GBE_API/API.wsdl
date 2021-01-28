@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://www.GlobalBettingExchange.com/ExternalAPI/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" targetNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="https://api01.fimbet.com/v2.0/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" targetNamespace="https://api01.fimbet.com/v2.0/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/">
+    <xs:schema elementFormDefault="qualified" targetNamespace="https://api01.fimbet.com/v2.0/">
       <xs:complexType name="ReturnStatus">
         <xs:attribute name="Code" type="xs:int" use="required" />
         <xs:attribute name="Description" type="xs:string" use="required" />
@@ -2098,7 +2098,7 @@
   <wsdl:binding name="ReadOnlyService" type="ReadOnlyService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ListTopLevelEvents">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListTopLevelEvents" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListTopLevelEvents" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListTopLevelEventsExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2108,7 +2108,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetEventSubTreeWithSelections">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetEventSubTreeWithSelections" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetEventSubTreeWithSelections" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetEventSubTreeWithSelectionsExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2118,7 +2118,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetEventSubTreeNoSelections">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetEventSubTreeNoSelections" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetEventSubTreeNoSelections" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetEventSubTreeNoSelectionsExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2128,7 +2128,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetMarketInformation">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetMarketInformation" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetMarketInformation" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetMarketInformationExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2138,7 +2138,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListMarketWithdrawalHistory">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListMarketWithdrawalHistory" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListMarketWithdrawalHistory" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListMarketWithdrawalHistoryExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2148,7 +2148,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetPrices">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetPrices" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetPrices" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetPricesExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2158,7 +2158,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListSelectionsChangedSince">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListSelectionsChangedSince" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListSelectionsChangedSince" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListSelectionsChangedSinceExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2168,7 +2168,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetOddsLadder">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetOddsLadder" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetOddsLadder" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetOddsLadderExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2178,7 +2178,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetCurrentSelectionSequenceNumber">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetCurrentSelectionSequenceNumber" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetCurrentSelectionSequenceNumber" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetCurrentSelectionSequenceNumberExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2188,7 +2188,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListSelectionTrades">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListSelectionTrades" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListSelectionTrades" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListSelectionTradesExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2198,7 +2198,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetSPEnabledMarketsInformation">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetSPEnabledMarketsInformation" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetSPEnabledMarketsInformation" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetSPEnabledMarketsInformationExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2211,7 +2211,7 @@
   <wsdl:binding name="SecureService" type="SecureService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ListOrdersChangedSince">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListOrdersChangedSince" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListOrdersChangedSince" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListOrdersChangedSinceExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2221,7 +2221,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="PlaceOrdersNoReceipt">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/PlaceOrdersNoReceipt" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/PlaceOrdersNoReceipt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="PlaceOrdersNoReceiptExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2231,7 +2231,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="PlaceOrdersWithReceipt">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/PlaceOrdersWithReceipt" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/PlaceOrdersWithReceipt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="PlaceOrdersWithReceiptExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2241,7 +2241,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="CancelOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/CancelOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/CancelOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="CancelOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2251,7 +2251,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="CancelAllOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/CancelAllOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/CancelAllOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="CancelAllOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2261,7 +2261,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="CancelAllOrdersOnMarket">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/CancelAllOrdersOnMarket" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/CancelAllOrdersOnMarket" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="CancelAllOrdersOnMarketExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2271,7 +2271,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAccountBalances">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetAccountBalances" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetAccountBalances" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetAccountBalancesExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2281,7 +2281,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListAccountPostings">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListAccountPostings" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListAccountPostings" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListAccountPostingsExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2291,7 +2291,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListAccountPostingsById">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListAccountPostingsById" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListAccountPostingsById" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListAccountPostingsByIdExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2301,7 +2301,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="UpdateOrdersNoReceipt">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/UpdateOrdersNoReceipt" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/UpdateOrdersNoReceipt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="UpdateOrdersNoReceiptExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2311,7 +2311,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetOrderDetails">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/GetOrderDetails" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/GetOrderDetails" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="GetOrderDetailsExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2321,7 +2321,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ChangePassword">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ChangePassword" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ChangePassword" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ChangePasswordExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2331,7 +2331,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListBootstrapOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListBootstrapOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListBootstrapOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListBootstrapOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2341,7 +2341,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="SuspendFromTrading">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/SuspendFromTrading" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/SuspendFromTrading" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="SuspendFromTradingExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2351,7 +2351,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="UnsuspendFromTrading">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/UnsuspendFromTrading" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/UnsuspendFromTrading" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="UnsuspendFromTradingExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2361,7 +2361,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="SuspendOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/SuspendOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/SuspendOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="SuspendOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2371,7 +2371,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="SuspendAllOrdersOnMarket">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/SuspendAllOrdersOnMarket" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/SuspendAllOrdersOnMarket" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="SuspendAllOrdersOnMarketExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2381,7 +2381,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="UnsuspendOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/UnsuspendOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/UnsuspendOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="UnsuspendOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2391,7 +2391,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="SuspendAllOrders">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/SuspendAllOrders" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/SuspendAllOrders" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="SuspendAllOrdersExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2401,7 +2401,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ListBlacklistInformation">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ListBlacklistInformation" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ListBlacklistInformation" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ListBlacklistInformationExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2411,7 +2411,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="RegisterHeartbeat">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/RegisterHeartbeat" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/RegisterHeartbeat" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="RegisterHeartbeatExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2421,7 +2421,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ChangeHeartbeatRegistration">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/ChangeHeartbeatRegistration" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/ChangeHeartbeatRegistration" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="ChangeHeartbeatRegistrationExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2431,7 +2431,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="DeregisterHeartbeat">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/DeregisterHeartbeat" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/DeregisterHeartbeat" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="DeregisterHeartbeatExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2441,7 +2441,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="Pulse">
-      <soap:operation soapAction="http://www.GlobalBettingExchange.com/ExternalAPI/Pulse" style="document" />
+      <soap:operation soapAction="https://api01.fimbet.com/v2.0/Pulse" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
         <soap:header message="PulseExternalApiHeader" part="ExternalApiHeader" use="literal" />
@@ -2460,7 +2460,7 @@
   <wsdl:service name="SecureService">
     <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
     <wsdl:port name="SecureService" binding="SecureService">
-      <soap:address location="https://api.betdaq.com/v2.0/Secure/SecureService.asmx" />
+      <soap:address location="https://api01.fimbet.com/v2.0/Secure/SecureService.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

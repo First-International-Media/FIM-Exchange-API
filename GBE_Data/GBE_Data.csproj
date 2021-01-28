@@ -271,10 +271,10 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <WebReferences Include="Web References\" />
-    <WebReferenceUrl Include="https://api.betdaq.com/v2.0/API.wsdl">
+    <WebReferenceUrl Include="https://api01.fimbet.com/v2.0/API.wsdl">
       <RelPath>Web References\GBE_API\</RelPath>
       <UrlBehavior>Static</UrlBehavior>
-      <UpdateFromURL>https://api.betdaq.com/v2.0/API.wsdl</UpdateFromURL>
+      <UpdateFromURL>https://api01.fimbet.com/v2.0/API.wsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

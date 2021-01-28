@@ -264,7 +264,7 @@ namespace GBE_UserInterface
             this.baseUrlText.Name = "baseUrlText";
             this.baseUrlText.Size = new System.Drawing.Size(376, 19);
             this.baseUrlText.TabIndex = 3;
-            this.baseUrlText.Text = "https://api.betdaq.com/v2.0/";
+            this.baseUrlText.Text = "https://api01.fimbet.com/v2.0/";
             // 
             // baseUrlLabel
             // 

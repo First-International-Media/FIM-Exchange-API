@@ -26,7 +26,7 @@ namespace GBE_Data.GBE_API {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Web.Services.WebServiceBindingAttribute(Name="ReadOnlyService", Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Web.Services.WebServiceBindingAttribute(Name="ReadOnlyService", Namespace="https://api01.fimbet.com/v2.0/")]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BaseResponse))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Order[]))]
     public partial class ReadOnlyService : System.Web.Services.Protocols.SoapHttpClientProtocol {
@@ -137,7 +137,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListSelectionsChangedSince", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListSelectionsChangedSince", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListSelectionsChangedSinceResponse ListSelectionsChangedSince(ListSelectionsChangedSinceRequest listSelectionsChangedSinceRequest) {
             object[] results = this.Invoke("ListSelectionsChangedSince", new object[] {
                         listSelectionsChangedSinceRequest});
@@ -179,7 +179,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListTopLevelEvents", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListTopLevelEvents", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListTopLevelEventsResponse ListTopLevelEvents(ListTopLevelEventsRequest listTopLevelEventsRequest) {
             object[] results = this.Invoke("ListTopLevelEvents", new object[] {
                         listTopLevelEventsRequest});
@@ -221,7 +221,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetEventSubTreeWithSelections", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetEventSubTreeWithSelections", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetEventSubTreeWithSelectionsResponse GetEventSubTreeWithSelections(GetEventSubTreeWithSelectionsRequest getEventSubTreeWithSelectionsRequest) {
             object[] results = this.Invoke("GetEventSubTreeWithSelections", new object[] {
                         getEventSubTreeWithSelectionsRequest});
@@ -263,7 +263,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetEventSubTreeNoSelections", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetEventSubTreeNoSelections", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetEventSubTreeNoSelectionsResponse GetEventSubTreeNoSelections(GetEventSubTreeNoSelectionsRequest getEventSubTreeNoSelectionsRequest) {
             object[] results = this.Invoke("GetEventSubTreeNoSelections", new object[] {
                         getEventSubTreeNoSelectionsRequest});
@@ -305,7 +305,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetMarketInformation", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetMarketInformation", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetMarketInformationResponse GetMarketInformation(GetMarketInformationRequest getMarketInformationRequest) {
             object[] results = this.Invoke("GetMarketInformation", new object[] {
                         getMarketInformationRequest});
@@ -347,7 +347,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListMarketWithdrawalHistory", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListMarketWithdrawalHistory", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListMarketWithdrawalHistoryResponse ListMarketWithdrawalHistory(ListMarketWithdrawalHistoryRequest listMarketWithdrawalHistoryRequest) {
             object[] results = this.Invoke("ListMarketWithdrawalHistory", new object[] {
                         listMarketWithdrawalHistoryRequest});
@@ -389,7 +389,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetPrices", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetPrices", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetPricesResponse GetPrices(GetPricesRequest getPricesRequest) {
             object[] results = this.Invoke("GetPrices", new object[] {
                         getPricesRequest});
@@ -431,7 +431,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetOddsLadder", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetOddsLadder", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetOddsLadderResponse GetOddsLadder(GetOddsLadderRequest getOddsLadderRequest) {
             object[] results = this.Invoke("GetOddsLadder", new object[] {
                         getOddsLadderRequest});
@@ -473,8 +473,8 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetCurrentSelectionSequenceNumbe" +
-            "r", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetCurrentSelectionSequenceNumbe" +
+            "r", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetCurrentSelectionSequenceNumberResponse GetCurrentSelectionSequenceNumber(GetCurrentSelectionSequenceNumberRequest getCurrentSelectionSequenceNumberRequest) {
             object[] results = this.Invoke("GetCurrentSelectionSequenceNumber", new object[] {
                         getCurrentSelectionSequenceNumberRequest});
@@ -516,7 +516,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListSelectionTrades", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListSelectionTrades", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListSelectionTradesResponse ListSelectionTrades(ListSelectionTradesRequest listSelectionTradesRequest) {
             object[] results = this.Invoke("ListSelectionTrades", new object[] {
                         listSelectionTradesRequest});
@@ -558,7 +558,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetSPEnabledMarketsInformation", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetSPEnabledMarketsInformation", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetSPEnabledMarketsInformationResponse GetSPEnabledMarketsInformation(GetSPEnabledMarketsInformationRequest GetSPEnabledMarketsInformationRequest) {
             object[] results = this.Invoke("GetSPEnabledMarketsInformation", new object[] {
                         GetSPEnabledMarketsInformationRequest});
@@ -621,7 +621,7 @@ namespace GBE_Data.GBE_API {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Web.Services.WebServiceBindingAttribute(Name="SecureService", Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Web.Services.WebServiceBindingAttribute(Name="SecureService", Namespace="https://api01.fimbet.com/v2.0/")]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BaseResponse))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Order[]))]
     public partial class SecureService : System.Web.Services.Protocols.SoapHttpClientProtocol {
@@ -680,7 +680,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         public SecureService() {
-            this.Url = "https://api.betdaq.com/v2.0/Secure/SecureService.asmx";
+            this.Url = "https://api01.fimbet.com/v2.0/Secure/SecureService.asmx";
             if ((this.IsLocalFileSystemWebService(this.Url) == true)) {
                 this.UseDefaultCredentials = true;
                 this.useDefaultCredentialsSetExplicitly = false;
@@ -797,7 +797,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListBootstrapOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListBootstrapOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListBootstrapOrdersResponse ListBootstrapOrders(ListBootstrapOrdersRequest listBootstrapOrdersRequest) {
             object[] results = this.Invoke("ListBootstrapOrders", new object[] {
                         listBootstrapOrdersRequest});
@@ -839,7 +839,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListOrdersChangedSince", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListOrdersChangedSince", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListOrdersChangedSinceResponse ListOrdersChangedSince(ListOrdersChangedSinceRequest listOrdersChangedSinceRequest) {
             object[] results = this.Invoke("ListOrdersChangedSince", new object[] {
                         listOrdersChangedSinceRequest});
@@ -881,7 +881,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/PlaceOrdersNoReceipt", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/PlaceOrdersNoReceipt", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public PlaceOrdersNoReceiptResponse PlaceOrdersNoReceipt(PlaceOrdersNoReceiptRequest placeOrdersNoReceiptRequest) {
             object[] results = this.Invoke("PlaceOrdersNoReceipt", new object[] {
                         placeOrdersNoReceiptRequest});
@@ -923,7 +923,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/PlaceOrdersWithReceipt", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/PlaceOrdersWithReceipt", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public PlaceOrdersWithReceiptResponse PlaceOrdersWithReceipt(PlaceOrdersWithReceiptRequest orders) {
             object[] results = this.Invoke("PlaceOrdersWithReceipt", new object[] {
                         orders});
@@ -965,7 +965,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/CancelOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/CancelOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public CancelOrdersResponse CancelOrders(CancelOrdersRequest cancelOrdersRequest) {
             object[] results = this.Invoke("CancelOrders", new object[] {
                         cancelOrdersRequest});
@@ -1007,7 +1007,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/CancelAllOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/CancelAllOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public CancelAllOrdersResponse CancelAllOrders(CancelAllOrdersRequest cancelAllOrdersRequest) {
             object[] results = this.Invoke("CancelAllOrders", new object[] {
                         cancelAllOrdersRequest});
@@ -1049,7 +1049,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/CancelAllOrdersOnMarket", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/CancelAllOrdersOnMarket", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public CancelAllOrdersOnMarketResponse CancelAllOrdersOnMarket(CancelAllOrdersOnMarketRequest cancelAllOrdersOnMarketRequest) {
             object[] results = this.Invoke("CancelAllOrdersOnMarket", new object[] {
                         cancelAllOrdersOnMarketRequest});
@@ -1091,7 +1091,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetAccountBalances", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetAccountBalances", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetAccountBalancesResponse GetAccountBalances(GetAccountBalancesRequest getAccountBalancesRequest) {
             object[] results = this.Invoke("GetAccountBalances", new object[] {
                         getAccountBalancesRequest});
@@ -1133,7 +1133,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListAccountPostings", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListAccountPostings", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListAccountPostingsResponse ListAccountPostings(ListAccountPostingsRequest listAccountPostingsRequest) {
             object[] results = this.Invoke("ListAccountPostings", new object[] {
                         listAccountPostingsRequest});
@@ -1175,7 +1175,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListAccountPostingsById", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListAccountPostingsById", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListAccountPostingsByIdResponse ListAccountPostingsById(ListAccountPostingsByIdRequest listAccountPostingsByIdRequest) {
             object[] results = this.Invoke("ListAccountPostingsById", new object[] {
                         listAccountPostingsByIdRequest});
@@ -1217,7 +1217,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/UpdateOrdersNoReceipt", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/UpdateOrdersNoReceipt", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public UpdateOrdersNoReceiptResponse UpdateOrdersNoReceipt(UpdateOrdersNoReceiptRequest updateOrdersNoReceiptRequest) {
             object[] results = this.Invoke("UpdateOrdersNoReceipt", new object[] {
                         updateOrdersNoReceiptRequest});
@@ -1259,7 +1259,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/GetOrderDetails", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/GetOrderDetails", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public GetOrderDetailsResponse GetOrderDetails(GetOrderDetailsRequest getOrderDetailsRequest) {
             object[] results = this.Invoke("GetOrderDetails", new object[] {
                         getOrderDetailsRequest});
@@ -1301,7 +1301,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ChangePassword", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ChangePassword", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ChangePasswordResponse ChangePassword(ChangePasswordRequest changePasswordRequest) {
             object[] results = this.Invoke("ChangePassword", new object[] {
                         changePasswordRequest});
@@ -1343,7 +1343,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/SuspendFromTrading", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/SuspendFromTrading", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public SuspendFromTradingResponse SuspendFromTrading(SuspendFromTradingRequest suspendFromTradingRequest) {
             object[] results = this.Invoke("SuspendFromTrading", new object[] {
                         suspendFromTradingRequest});
@@ -1385,7 +1385,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/UnsuspendFromTrading", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/UnsuspendFromTrading", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public UnsuspendFromTradingResponse UnsuspendFromTrading(UnsuspendFromTradingRequest unsuspendFromTradingRequest) {
             object[] results = this.Invoke("UnsuspendFromTrading", new object[] {
                         unsuspendFromTradingRequest});
@@ -1427,7 +1427,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/SuspendOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/SuspendOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public SuspendOrdersResponse SuspendOrders(SuspendOrdersRequest suspendOrdersRequest) {
             object[] results = this.Invoke("SuspendOrders", new object[] {
                         suspendOrdersRequest});
@@ -1469,7 +1469,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/SuspendAllOrdersOnMarket", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/SuspendAllOrdersOnMarket", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public SuspendAllOrdersOnMarketResponse SuspendAllOrdersOnMarket([System.Xml.Serialization.XmlElementAttribute("suspendAllOrdersOnMarket")] SuspendAllOrdersOnMarketRequest suspendAllOrdersOnMarket1) {
             object[] results = this.Invoke("SuspendAllOrdersOnMarket", new object[] {
                         suspendAllOrdersOnMarket1});
@@ -1511,7 +1511,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/UnsuspendOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/UnsuspendOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public UnsuspendOrdersResponse UnsuspendOrders(UnsuspendOrdersRequest unsuspendOrdersRequest) {
             object[] results = this.Invoke("UnsuspendOrders", new object[] {
                         unsuspendOrdersRequest});
@@ -1553,7 +1553,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/SuspendAllOrders", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/SuspendAllOrders", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public SuspendAllOrdersResponse SuspendAllOrders(SuspendAllOrdersRequest suspendAllOrdersRequest) {
             object[] results = this.Invoke("SuspendAllOrders", new object[] {
                         suspendAllOrdersRequest});
@@ -1595,7 +1595,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ListBlacklistInformation", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ListBlacklistInformation", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ListBlacklistInformationResponse ListBlacklistInformation(ListBlacklistInformationRequest listBlacklistInformationRequest) {
             object[] results = this.Invoke("ListBlacklistInformation", new object[] {
                         listBlacklistInformationRequest});
@@ -1637,7 +1637,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/RegisterHeartbeat", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/RegisterHeartbeat", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public RegisterHeartbeatResponse RegisterHeartbeat(RegisterHeartbeatRequest registerHeartbeatRequest) {
             object[] results = this.Invoke("RegisterHeartbeat", new object[] {
                         registerHeartbeatRequest});
@@ -1679,7 +1679,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/ChangeHeartbeatRegistration", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/ChangeHeartbeatRegistration", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public ChangeHeartbeatRegistrationResponse ChangeHeartbeatRegistration(ChangeHeartbeatRegistrationRequest changeHeartbeatRegistrationRequest) {
             object[] results = this.Invoke("ChangeHeartbeatRegistration", new object[] {
                         changeHeartbeatRegistrationRequest});
@@ -1721,7 +1721,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/DeregisterHeartbeat", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/DeregisterHeartbeat", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public DeregisterHeartbeatResponse DeregisterHeartbeat(DeregisterHeartbeatRequest deregisterHeartbeatRequest) {
             object[] results = this.Invoke("DeregisterHeartbeat", new object[] {
                         deregisterHeartbeatRequest});
@@ -1763,7 +1763,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapHeaderAttribute("ExternalApiHeaderValue")]
-        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://www.GlobalBettingExchange.com/ExternalAPI/Pulse", RequestNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", ResponseNamespace="http://www.GlobalBettingExchange.com/ExternalAPI/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://api01.fimbet.com/v2.0/Pulse", RequestNamespace="https://api01.fimbet.com/v2.0/", ResponseNamespace="https://api01.fimbet.com/v2.0/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public PulseResponse Pulse(PulseRequest pulseRequest) {
             object[] results = this.Invoke("Pulse", new object[] {
                         pulseRequest});
@@ -1827,8 +1827,8 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="https://api01.fimbet.com/v2.0/", IsNullable=false)]
     public partial class ExternalApiHeader : System.Web.Services.Protocols.SoapHeader {
         
         private decimal versionField;
@@ -1902,7 +1902,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PulseRequest {
     }
     
@@ -1911,7 +1911,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class DeregisterHeartbeatRequest {
     }
     
@@ -1920,7 +1920,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ChangeHeartbeatRegistrationRequest {
         
         private int thresholdMsField;
@@ -1955,7 +1955,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class RegisterHeartbeatRequest {
         
         private int thresholdMsField;
@@ -1990,7 +1990,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListBlacklistInformationRequest {
     }
     
@@ -1999,7 +1999,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendAllOrdersRequest {
     }
     
@@ -2008,7 +2008,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UnsuspendOrdersRequest {
         
         private long[] orderIdsField;
@@ -2030,7 +2030,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendAllOrdersOnMarketRequest {
         
         private long marketIdField;
@@ -2065,7 +2065,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendOrdersRequest {
         
         private long[] orderIdsField;
@@ -2087,7 +2087,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UnsuspendFromTradingRequest {
     }
     
@@ -2096,7 +2096,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendFromTradingRequest {
     }
     
@@ -2105,7 +2105,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ChangePasswordRequest {
         
         private string passwordField;
@@ -2127,7 +2127,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetOrderDetailsRequest {
         
         private long orderIdField;
@@ -2162,7 +2162,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UpdateOrdersNoReceiptRequestItem {
         
         private long betIdField;
@@ -2353,7 +2353,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UpdateOrdersNoReceiptRequest {
         
         private UpdateOrdersNoReceiptRequestItem[] ordersField;
@@ -2375,7 +2375,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsByIdRequest {
         
         private long transactionIdField;
@@ -2397,7 +2397,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsRequest {
         
         private System.DateTime startTimeField;
@@ -2458,7 +2458,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetAccountBalancesRequest {
     }
     
@@ -2467,7 +2467,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersOnMarketRequest {
         
         private long[] marketIdsField;
@@ -2489,7 +2489,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersRequest {
     }
     
@@ -2498,7 +2498,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelOrdersRequest {
         
         private long[] orderHandleField;
@@ -2520,7 +2520,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersWithReceiptRequestItem {
         
         private long selectionIdField;
@@ -2815,7 +2815,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersWithReceiptRequest {
         
         private PlaceOrdersWithReceiptRequestItem[] ordersField;
@@ -2837,7 +2837,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SimpleOrderRequest {
         
         private long selectionIdField;
@@ -3119,7 +3119,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersNoReceiptRequest {
         
         private SimpleOrderRequest[] ordersField;
@@ -3153,7 +3153,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListOrdersChangedSinceRequest {
         
         private long sequenceNumberField;
@@ -3174,7 +3174,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListBootstrapOrdersRequest {
         
         private long sequenceNumberField;
@@ -3220,7 +3220,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetSPEnabledMarketsInformationRequest {
     }
     
@@ -3229,7 +3229,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SelectionTradesRequestItem {
         
         private long selectionIdField;
@@ -3277,7 +3277,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionTradesRequest {
         
         private SelectionTradesRequestItem[] selectionRequestsField;
@@ -3312,7 +3312,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetCurrentSelectionSequenceNumberRequest {
     }
     
@@ -3321,7 +3321,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetOddsLadderRequest {
         
         private byte priceFormatField;
@@ -3356,7 +3356,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetPricesRequest {
         
         private long[] marketIdsField;
@@ -3495,7 +3495,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListMarketWithdrawalHistoryRequest {
         
         private long marketIdField;
@@ -3517,7 +3517,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetMarketInformationRequest {
         
         private long[] marketIdsField;
@@ -3539,7 +3539,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetEventSubTreeNoSelectionsRequest {
         
         private long[] eventClassifierIdsField;
@@ -3613,7 +3613,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetEventSubTreeWithSelectionsRequest {
         
         private long[] eventClassifierIdsField;
@@ -3661,7 +3661,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListTopLevelEventsRequest {
         
         private bool wantPlayMarketsField;
@@ -3696,7 +3696,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class TradeItemType {
         
         private System.DateTime occurredAtField;
@@ -3770,7 +3770,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionTradesResponseItem {
         
         private TradeItemType[] tradeItemsField;
@@ -3831,7 +3831,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetOddsLadderResponseItem {
         
         private decimal priceField;
@@ -3879,7 +3879,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ApiTimes {
         
         private string apiNameField;
@@ -3914,7 +3914,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendOrdersResponseItem {
         
         private long orderIdField;
@@ -3962,7 +3962,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersOnMarketResponseItem {
         
         private long orderHandleField;
@@ -4036,7 +4036,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PricesType {
         
         private decimal priceField;
@@ -4071,7 +4071,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SelectionTypeWithPrices {
         
         private PricesType[] forSidePricesField;
@@ -4535,7 +4535,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class MarketTypeWithPrices {
         
         private SelectionTypeWithPrices[] selectionsField;
@@ -4947,7 +4947,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListMarketWithdrawalHistoryResponseItem {
         
         private long selectionIdField;
@@ -5021,7 +5021,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SelectionType {
         
         private long idField;
@@ -5108,7 +5108,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class MarketType {
         
         private SelectionType[] selectionsField;
@@ -5377,7 +5377,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class EventClassifierType {
         
         private EventClassifierType[] eventClassifiersField;
@@ -5490,7 +5490,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CommissionInformationType {
         
         private decimal grossSettlementAmountField;
@@ -5525,7 +5525,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class MatchedOrderInformationType {
         
         private decimal matchedStakeField;
@@ -5664,7 +5664,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class AuditLogItem {
         
         private MatchedOrderInformationType matchedOrderInformationField;
@@ -5879,7 +5879,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class OrderSettlementInformationType {
         
         private decimal grossSettlementAmountField;
@@ -5992,7 +5992,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsByIdResponseItem {
         
         private System.DateTime postedAtField;
@@ -6183,7 +6183,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsResponseItem {
         
         private System.DateTime postedAtField;
@@ -6387,7 +6387,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UpdateOrdersNoReceiptResponseItem {
         
         private long betIdField;
@@ -6448,7 +6448,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersResponseItem {
         
         private long orderHandleField;
@@ -6522,7 +6522,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelOrdersResponseItem {
         
         private long orderHandleField;
@@ -6596,7 +6596,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersWithReceiptResponseItem {
         
         private byte statusField;
@@ -6891,7 +6891,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersNoReceiptResponseItem {
         
         private long orderHandleField;
@@ -6952,7 +6952,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class OrderCommissionInformationType {
         
         private decimal grossSettlementAmountField;
@@ -7000,7 +7000,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class Order {
         
         private OrderCommissionInformationType orderCommissionInformationField;
@@ -7463,7 +7463,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SettlementInformationType {
         
         private System.DateTime settledTimeField;
@@ -7537,7 +7537,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionsChangedSinceResponseItem {
         
         private SettlementInformationType[] settlementInformationField;
@@ -7702,7 +7702,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ReturnStatus {
         
         private int codeField;
@@ -7798,7 +7798,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public abstract partial class BaseResponse {
         
         private ReturnStatus returnStatusField;
@@ -7831,7 +7831,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetSPEnabledMarketsInformationResponse : BaseResponse {
         
         private GetSPEnabledMarketsInformationResponseSPEnabledEvent[] sPEnabledEventField;
@@ -7853,7 +7853,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetSPEnabledMarketsInformationResponseSPEnabledEvent {
         
         private byte[] marketTypeIdsField;
@@ -7889,7 +7889,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionTradesResponse : BaseResponse {
         
         private ListSelectionTradesResponseItem[] selectionTradesField;
@@ -7911,7 +7911,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetCurrentSelectionSequenceNumberResponse : BaseResponse {
         
         private long selectionSequenceNumberField;
@@ -7946,7 +7946,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetOddsLadderResponse : BaseResponse {
         
         private GetOddsLadderResponseItem[] ladderField;
@@ -7968,7 +7968,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PulseResponse : BaseResponse {
         
         private System.DateTime performedAtField;
@@ -8029,7 +8029,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class DeregisterHeartbeatResponse : BaseResponse {
     }
     
@@ -8038,7 +8038,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ChangeHeartbeatRegistrationResponse : BaseResponse {
     }
     
@@ -8047,7 +8047,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class RegisterHeartbeatResponse : BaseResponse {
     }
     
@@ -8056,7 +8056,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListBlacklistInformationResponse : BaseResponse {
         
         private ApiTimes[] apiNamesAndTimesField;
@@ -8078,7 +8078,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendAllOrdersResponse : BaseResponse {
         
         private SuspendOrdersResponseItem[] ordersField;
@@ -8100,7 +8100,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UnsuspendOrdersResponse : BaseResponse {
     }
     
@@ -8109,7 +8109,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendAllOrdersOnMarketResponse : BaseResponse {
         
         private SuspendOrdersResponseItem[] ordersField;
@@ -8131,7 +8131,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendOrdersResponse : BaseResponse {
         
         private SuspendOrdersResponseItem[] ordersField;
@@ -8153,7 +8153,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UnsuspendFromTradingResponse : BaseResponse {
     }
     
@@ -8162,7 +8162,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class SuspendFromTradingResponse : BaseResponse {
     }
     
@@ -8171,7 +8171,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersOnMarketResponse : BaseResponse {
         
         private long[] orderIdsField;
@@ -8206,7 +8206,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetPricesResponse : BaseResponse {
         
         private MarketTypeWithPrices[] marketPricesField;
@@ -8228,7 +8228,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListMarketWithdrawalHistoryResponse : BaseResponse {
         
         private ListMarketWithdrawalHistoryResponseItem[] withdrawalsField;
@@ -8250,7 +8250,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ChangePasswordResponse : BaseResponse {
     }
     
@@ -8259,7 +8259,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetMarketInformationResponse : BaseResponse {
         
         private MarketType[] marketsField;
@@ -8281,7 +8281,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetEventSubTreeNoSelectionsResponse : BaseResponse {
         
         private EventClassifierType[] eventClassifiersField;
@@ -8303,7 +8303,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetEventSubTreeWithSelectionsResponse : BaseResponse {
         
         private EventClassifierType[] eventClassifiersField;
@@ -8325,7 +8325,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListTopLevelEventsResponse : BaseResponse {
         
         private EventClassifierType[] eventClassifiersField;
@@ -8347,7 +8347,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetOrderDetailsResponse : BaseResponse {
         
         private OrderSettlementInformationType orderSettlementInformationField;
@@ -9057,7 +9057,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsByIdResponse : BaseResponse {
         
         private ListAccountPostingsByIdResponseItem[] ordersField;
@@ -9196,7 +9196,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListAccountPostingsResponse : BaseResponse {
         
         private ListAccountPostingsResponseItem[] ordersField;
@@ -9361,7 +9361,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class UpdateOrdersNoReceiptResponse : BaseResponse {
         
         private UpdateOrdersNoReceiptResponseItem[] ordersField;
@@ -9383,7 +9383,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelAllOrdersResponse : BaseResponse {
         
         private long[] cancelledOrdersHandlesField;
@@ -9418,7 +9418,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class CancelOrdersResponse : BaseResponse {
         
         private long[] cancelledOrdersHandlesField;
@@ -9453,7 +9453,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersWithReceiptResponse : BaseResponse {
         
         private PlaceOrdersWithReceiptResponseItem[] ordersField;
@@ -9475,7 +9475,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class PlaceOrdersNoReceiptResponse : BaseResponse {
         
         private long[] orderHandlesField;
@@ -9510,7 +9510,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListOrdersChangedSinceResponse : BaseResponse {
         
         private Order[] ordersField;
@@ -9532,7 +9532,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListBootstrapOrdersResponse : BaseResponse {
         
         private Order[] ordersField;
@@ -9567,7 +9567,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionsChangedSinceResponse : BaseResponse {
         
         private ListSelectionsChangedSinceResponseItem[] selectionsField;
@@ -9589,7 +9589,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class GetAccountBalancesResponse : BaseResponse {
         
         private string currencyField;
@@ -9663,7 +9663,7 @@ namespace GBE_Data.GBE_API {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.GlobalBettingExchange.com/ExternalAPI/")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="https://api01.fimbet.com/v2.0/")]
     public partial class ListSelectionsChangedSinceRequest {
         
         private long selectionSequenceNumberField;
