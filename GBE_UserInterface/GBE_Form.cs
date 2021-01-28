@@ -1138,7 +1138,7 @@ namespace GBE_UserInterface
             this.Controls.Add(this.tabs);
             this.Controls.Add(this.statusBar);
             this.Name = "GBE_Form";
-            this.Text = "Global Betting Exchange";
+            this.Text = "FIM Exchange";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

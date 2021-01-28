@@ -146,7 +146,7 @@
         </xs:attribute>
         <xs:attribute name="CancelIfSelectionReset" type="xs:boolean" use="required">
           <xs:annotation>
-            <xs:documentation>The effect of this option is to cancel any unmatched bets if the selection is reset.  This can occur when the Market is reset (eg a goal is scored in an in-running market).  This defaults to true - unmatched bets will be cancelled if an event occurs in the market such that Betdaq forces the market to be reset</xs:documentation>
+            <xs:documentation>The effect of this option is to cancel any unmatched bets if the selection is reset.  This can occur when the Market is reset (eg a goal is scored in an in-running market).  This defaults to true - unmatched bets will be cancelled if an event occurs in the market such that FIM forces the market to be reset</xs:documentation>
           </xs:annotation>
         </xs:attribute>
         <xs:attribute name="ExpiresAt" type="xs:dateTime" use="optional">
@@ -415,7 +415,7 @@
         <xs:attribute name="CancelIfSelectionReset" type="xs:boolean" use="optional">
           <xs:annotation>
             <xs:documentation>
-              The effect of this option is to cancel any unmatched bets if the selection is reset.  This can occur when the Market is reset (eg a goal is scored in an in-running market).  This defaults to true - unmatched bets will be cancelled if an event occurs in the market such that Betdaq forces the market to be reset
+              The effect of this option is to cancel any unmatched bets if the selection is reset.  This can occur when the Market is reset (eg a goal is scored in an in-running market).  This defaults to true - unmatched bets will be cancelled if an event occurs in the market such that FIM forces the market to be reset
               This field is required only if killType is set to FillOrKillDontCancel.
             </xs:documentation>
           </xs:annotation>
@@ -2454,7 +2454,7 @@
   <wsdl:service name="ReadOnlyService">
     <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
     <wsdl:port name="ReadOnlyService" binding="ReadOnlyService">
-      <soap:address location="http://api.betdaq.com/v2.0/ReadOnlyService.asmx" />
+      <soap:address location="https://api01.fimbet.com/v2.0/ReadOnlyService.asmx" />
     </wsdl:port>
   </wsdl:service>
   <wsdl:service name="SecureService">

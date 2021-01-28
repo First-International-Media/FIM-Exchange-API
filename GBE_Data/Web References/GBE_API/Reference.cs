@@ -59,7 +59,7 @@ namespace GBE_Data.GBE_API {
         
         /// <remarks/>
         public ReadOnlyService() {
-            this.Url = "http://api.betdaq.com/v2.0/ReadOnlyService.asmx";
+            this.Url = "https://api01.fimbet.com/v2.0/ReadOnlyService.asmx";
             if ((this.IsLocalFileSystemWebService(this.Url) == true)) {
                 this.UseDefaultCredentials = true;
                 this.useDefaultCredentialsSetExplicitly = false;
